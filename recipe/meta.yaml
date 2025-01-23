@@ -1,5 +1,5 @@
 {% set name = "pycolorbar" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycolorbar-{{ version }}.tar.gz
-  sha256: d8f41b0928ce96b61d3cc4c18e94e50bc4ae729491070327a3cc5f309e56ee08
+  sha256: b0d32fcb6fae3405551f008a701ddd8effd6e38ecc770e1ba4843ed752e23102
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
