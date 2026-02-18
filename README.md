@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@ghiggi](https://github.com/ghiggi/)
 
-
-<!-- dummy commit to enable rerendering -->
-
